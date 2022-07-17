@@ -22,6 +22,14 @@ public class Timer : MonoBehaviour
             {
                 timeLeft-=Time.deltaTime;
                 updateTimer(timeLeft);
+                if (timeLeft < 10)
+                {
+                    timerTxt.color = Color.red;
+                }
+                else
+                {
+                    timerTxt.color = Color.white;
+                }
             }
             else
             {

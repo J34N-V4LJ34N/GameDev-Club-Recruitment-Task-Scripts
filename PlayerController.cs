@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private const string HORIZONTAL = "Horizontal";
     private const string VERTICAL = "Vertical";
 
-    private float speed;
+    public float speed;
     public float normalSpeed;
     public float boostedspeed;
     public float rotationSpeed;
